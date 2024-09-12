@@ -1,14 +1,17 @@
 body {
-    background-color: #EEEEEE;
+    background-color: #F4ECD6;
     margin: 0;
+    font-size: x-large;
 }
 
 #header {
-    background-color: #00ADB5;
-    color: #222831;
+    background-color: #88B7B5;
+    color: #310A31;
     width: 100%;
+    height: 30px;
     padding: 10px 0;
     overflow: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #header_items {
@@ -22,6 +25,14 @@ body {
     font-weight: bold;
 }
 
+.header_label {
+    text-decoration: none;
+}
+
+.header_label:visited {
+    color: #310A31;
+}
+
 #header_items a {
     padding: 8px;
 }
@@ -30,6 +41,12 @@ body {
     float: right;
 }
 
+#linkedin_img {
+    height: 30px;
+}
+
 #main_section {
-    color: #393E46;
+    color: #310A31;
+    padding: 10px 10px 10px 10px;
+    font-family: monospace;
 }
