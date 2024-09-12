@@ -1,0 +1,35 @@
+body {
+    background-color: #EEEEEE;
+    margin: 0;
+}
+
+#header {
+    background-color: #00ADB5;
+    color: #222831;
+    width: 100%;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+#header_items {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#header_name {
+    font-weight: bold;
+}
+
+#header_items a {
+    padding: 8px;
+}
+
+#header_images {
+    float: right;
+}
+
+#main_section {
+    color: #393E46;
+}
